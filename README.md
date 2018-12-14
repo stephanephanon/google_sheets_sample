@@ -1,4 +1,7 @@
-Sample project for meetup attendance helper application
+Sample Application for Meetup and Google Sheets
+===============================================
+
+Sample project to fetch meetup attendance data to a google sheet.
 
 Fetch data from meetup api, put into google sheets format, and save to google sheet
 
@@ -52,5 +55,5 @@ Command
 
     Run with a meeting id, eg: https://www.meetup.com/Women-Who-Code-DC/events/253504356/
 
-    python google_sheets_etl.py 253504356
+    python wwc_attendance_etl.py 253504356
 
